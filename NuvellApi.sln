@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuvellApi", "NuvellApi.csproj", "{3F6017E1-915D-CCF8-DA83-5B5D6AD5853A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F6017E1-915D-CCF8-DA83-5B5D6AD5853A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6017E1-915D-CCF8-DA83-5B5D6AD5853A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6017E1-915D-CCF8-DA83-5B5D6AD5853A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6017E1-915D-CCF8-DA83-5B5D6AD5853A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0B4D073-9A6B-4E31-819E-CF98EE43B5A2}
+	EndGlobalSection
+EndGlobal
