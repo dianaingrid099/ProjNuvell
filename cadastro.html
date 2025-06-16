@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Nuvell</title>
+    <link rel="stylesheet" href="assets/css/page/Cadastro/cadastro.css">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="Conjunto">
+
+        <div class="lado-esquerdo">
+            
+                <div class="botao-voltar">
+                    <a href="login.html" class="botao-voltar-page"><img src="assets/css/page/cadastro/image/Voltar.png" alt=""></a>
+                </div>
+        </div>
+
+        <div class="lado-direito">
+            <div class="caixa-cadastro">
+                <h2>Vamos Criar Sua Conta!</h2>
+                <form>
+
+                    <!-- 1ª linha -->
+                    <div class="formar-coluna coluna1 coluna-maior">
+                        <label for="Email"> Email </label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="formar-coluna coluna1 ">
+                        <label for="Nome"> Nome </label>
+                        <input type="text" id="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="formar-coluna coluna1"> 
+                        <label for="Nome2">Sobrenome</label>
+                        <input type="text" id="sobrenome" placeholder="Sobrenome" required>
+                    </div>
+
+                    <!-- 2ª linha -->
+                    <div class="formar-coluna coluna-maior">
+                        <label for="Senha">Senha</label>
+                        <input type="password" id="Senha" placeholder="Senha" required>
+                    </div>
+
+                    <div class="formar-coluna coluna-maior ">
+                        <label for="Senha2">Confirme a senha</label>
+                        <input type="password" id="Senha2" placeholder="Confirme a senha" required>
+                    </div>
+
+                     <!-- 3ª linha -->
+                    <div class="formar-coluna">
+                        <label for="CPF">CPF</label>
+                        <input type="text" id="CPF" placeholder="CPF" required>
+                    </div>
+
+                    <div class="formar-coluna">
+                        <label for="Celular">Celular</label>
+                        <input type="text" id="Celular" placeholder="Celular" required>
+                    </div>
+
+                    <div class="formar-coluna">
+                        <label for="CEP">CEP</label>
+                        <input type="text" id="CEP" placeholder="CEP" required>
+                    </div>
+
+                    <div class="formar-coluna">
+                        <label for="Enderço">Endereço</label>
+                        <input type="text" id="Endereço" placeholder="Endereço" required>
+                    </div>
+
+
+
+                </form>
+                
+                <div class="linha-divisora"> 
+                    <div class="linha"></div>
+                </div>
+
+                <div class="botao-criar">
+                    <button class="botao-criar-conta" type="submit">Criar Conta</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./JavaScript/cadastro.js"></script>
+</html>

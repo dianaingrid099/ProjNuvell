@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Nuvell</title>
+    <link rel="stylesheet" href="assets/css/page/Compra/compra.css">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/81389dc184.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <a href="index.html" class="icon-logo">
+                <i class="fa-solid fa-paw"></i>
+                <h2> Nuvell</h2>
+            </a>
+
+            <section class="navbar-texto">
+                <a href="#Pelúcia">Pelúcias</a>
+                <a href="#Destaques">Destaques</a>
+                <a href="colecao.html">Coleções</a>
+            </section>
+
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-cart-shopping btn-compra"></i></a>
+                <a href="login.html"><button class="btn-entrar">Entrar</button></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="conjunto">
+
+        <div class="lado-esquerdo">
+            <div class="caixa-cadastro">
+                <h2>Endereço de Entrega</h2>
+                <form>
+
+                    <!-- 1ª linha -->
+                    <div class="formar-coluna coluna1 coluna-maior">
+                        <label for="Nome"> Nome Completo </label>
+                        <input type="text" id="Nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="formar-coluna coluna1 coluna-maior">
+                        <label for="CEP">CEP </label>
+                        <input type="text" id="CEP" placeholder="CEP" required>
+                    </div>
+
+
+                    <!-- 2ª linha -->
+                    <div class="formar-coluna coluna-maior">
+                        <label for="Rua">Rua</label>
+                        <input type="text" id="Rua" placeholder="Rua" required>
+                    </div>
+
+                    <div class="formar-coluna  ">
+                        <label for="Numero">Número</label>
+                        <input type="text" id="Numero" placeholder="Número" required>
+                    </div>
+
+                    <div class="formar-coluna  ">
+                        <label for="Bairro">Bairro</label>
+                        <input type="text" id="Bairro" placeholder="Bairro" required>
+                    </div>
+
+                    <!-- 3ª linha -->
+                    <div class="formar-coluna">
+                        <label for="Cidade">Cidade</label>
+                        <input type="text" id="Cidade" placeholder="Cidade" required>
+                    </div>
+
+                    <div class="formar-coluna">
+                        <label for="Celular">Celular</label>
+                        <input type="text" id="Celular" placeholder="Celular" required>
+                    </div>
+
+                    <div class="formar-coluna coluna-maior">
+                        <label for="CEP">Complemento</label>
+                        <input type="text" id="Complemento" placeholder="Complemento" required>
+                    </div>
+
+
+
+                </form>
+
+                <div class="linha-divisora">
+                    <div class="linha"></div>
+                </div>
+
+                <div class="botao-salvar">
+                    <button class="botao-salvar-entrega" type="submit">Salvar</button>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="lado-direito">
+            
+            <div class="conteudo-pagamento">
+                <h2>Endereço de Entrega</h2>
+                
+                <div class="pagamento-opcao">
+                    <input type="radio" name="payment" id="boleto">
+                    <img class="boleto" src="assets/css/page/Compra/image/boleto.png" alt="Boleto Bancário">
+                    <label for="boleto">Boleto Bancário</label>
+                </div>
+                <div class="pagamento-opcao">
+                    <input type="radio" name="payment" id="pix">
+                    <img src="assets/css/page/Compra/image/pix.png" alt="Pix">
+                    <label for="pix">Pix</label>
+                </div>
+                <div class="pagamento-opcao">
+                    <input type="radio" name="payment" id="cartao">
+                    <img src="assets/css/page/Compra/image/cartao.png" alt="Cartão de Crédito">
+                    <label for="cartao">Cartão de Crédito</label>
+                </div>
+
+                <div class="linha-divisora-direita">
+                    <div class="linha-direita"></div>
+                </div>
+
+                <div class="botao-comprar">
+                    <button class="botao-comprar-texto" type="submit">Comprar</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>

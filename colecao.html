@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Nuvell</title>
+    <link rel="stylesheet" href="assets/css/page/Colecao/colecao.css">
+    <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/81389dc184.js" crossorigin="anonymous"></script>
+    <script src="assets/css/global/script.js" defer></script>
+    <script src="assets/css/global/carrossel2.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header>
+
+        <nav>
+
+            <a href="index.html" class="icon-logo">
+                <i class="fa-solid fa-paw"></i>
+                <h2> Nuvell</h2>
+            </a>
+
+            <section class="navbar-texto">
+                <a href="#colecao-1">Clássica</a>
+                <a href="#colecao-2">Selvagem</a>
+                <a href="#colecao-3">Fantasia</a>
+            </section>
+
+            <div class="icons">
+                <a href="#"><i class="fa-solid fa-cart-shopping btn-compra"></i></a>
+                <a href="login.html"><button class="btn-entrar">Entrar</button></a>
+                <a href="perfil.html" id="user-icon" class="hidden"><i class="fa-solid fa-user"></i></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="destaques" id="Destaques">
+
+        <div class="carrousel">
+            <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel"
+                data-bs-interval="2500">
+
+                <div class="carousel-indicators">
+                    <button type="button " data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#Pelúcia">
+                            <img src="assets/css/page/Colecao/image/Carrousel1.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="assets/css/page/Colecao/image/Carrousel2.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="assets/css/page/Colecao/image/Carrousel3.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden ">Next</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="colecao-1" id="colecao-1">
+
+        <div class="fundo-pelucias">
+
+            <section class="pelucias" id="pelucias">
+
+                <div class="titulo-pelucias">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h2 id="Pelúcia">Fofura Clássica</h2>
+                </div>
+
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carousel-track">
+                        <!-- Card 1 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Urso-Pelucia.png" alt="Urso Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Urso</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=1" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Panda-Pelucia.png" alt="Panda Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Panda</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=2" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Cachorro-Pelucia.png" alt="Leão Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Cachorro</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Coelho-Pelucia.png" alt="Coelho Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Coelho</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=4" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Gato-Pelucia.png" alt="Dinossauro Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Gato</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-buttons" style="gap: 20px;">
+                    <button id="btn-prev" class="btn btn-primary">&#8249; Anterior</button>
+                    <button id="btn-next" class="btn btn-primary">Próximo &#8250;</button>
+                </div>
+                    <script>
+                    const track1 = document.querySelector('.colecao-1 #carousel-track');
+                    const prevBtn1 = document.querySelector('.colecao-1 #btn-prev');
+                    const nextBtn1 = document.querySelector('.colecao-1 #btn-next');
+
+                    const cardWidth1 = 410;
+                    const visibleCards1 = 5;
+                    const originalCards1 = Array.from(track1.children).filter(c => !c.classList.contains('clone'));
+
+                    originalCards1.forEach(card => {
+                        const cloneStart = card.cloneNode(true);
+                        cloneStart.classList.add('clone');
+                        track1.appendChild(cloneStart);
+                    });
+                    originalCards1.forEach(card => {
+                        const cloneEnd = card.cloneNode(true);
+                        cloneEnd.classList.add('clone');
+                        track1.insertBefore(cloneEnd, track1.firstChild);
+                    });
+
+                    const totalCards1 = track1.children.length;
+                    const realStartIndex1 = 0;
+                    const realEndIndex1 = realStartIndex1 + originalCards1.length - 1;
+
+                    let currentIndex1 = realStartIndex1;
+                    let transitioning1 = false;
+
+                    track1.style.transition = 'none';
+                    track1.style.transform = `translateX(-${cardWidth1 * currentIndex1}px)`;
+
+                    function moveTo1(index, smooth = true) {
+                        if (transitioning1) return;
+                        transitioning1 = true;
+
+                        track1.style.transition = smooth ? 'transform 0.5s ease' : 'none';
+                        track1.style.transform = `translateX(-${cardWidth1 * index}px)`;
+
+                        setTimeout(() => {
+                            if (index > realEndIndex1) {
+                                currentIndex1 = realStartIndex1;
+                                track1.style.transition = 'none';
+                                track1.style.transform = `translateX(-${cardWidth1 * currentIndex1}px)`;
+                            } else if (index < realStartIndex1) {
+                                currentIndex1 = realEndIndex1;
+                                track1.style.transition = 'none';
+                                track1.style.transform = `translateX(-${cardWidth1 * currentIndex1}px)`;
+                            } else {
+                                currentIndex1 = index;
+                            }
+
+                            transitioning1 = false;
+                        }, 500);
+                    }
+
+                    function nextSlide1() {
+                        moveTo1(currentIndex1 + 1);
+                    }
+
+                    function prevSlide1() {
+                        moveTo1(currentIndex1 - 1);
+                    }
+
+                    let autoSlideTimeout1;
+
+                    function startAutoSlide1() {
+                        autoSlideTimeout1 = setTimeout(function slide() {
+                            nextSlide1();
+                            autoSlideTimeout1 = setTimeout(slide, 4000);
+                        }, 4000);
+                    }
+
+                    function stopAutoSlide1() {
+                        clearTimeout(autoSlideTimeout1);
+                    }
+
+                    nextBtn1.addEventListener('click', () => {
+                        stopAutoSlide1();
+                        nextSlide1();
+                        setTimeout(startAutoSlide1, 4000);
+                    });
+
+                    prevBtn1.addEventListener('click', () => {
+                        stopAutoSlide1();
+                        prevSlide1();
+                        setTimeout(startAutoSlide1, 4000);
+                    });
+
+                    document.querySelector('.colecao-1 .carousel-wrapper').addEventListener('mouseenter', stopAutoSlide1);
+                    document.querySelector('.colecao-1 .carousel-wrapper').addEventListener('mouseleave', () => {
+                        setTimeout(startAutoSlide1, 4000);
+                    });
+
+                    window.addEventListener('load', () => {
+                        startAutoSlide1();
+                    });
+                    </script>
+
+
+            </section>
+        </div>
+
+
+    </section>
+
+    <section class="colecao-2" id="colecao-2">
+            
+        <div class="fundo-pelucias">
+
+            <section class="pelucias">
+
+                <div class="titulo-pelucias">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h2 id="Pelúcia">Aventura Selvagem</h2>
+                </div>
+
+                <div class="carousel-wrapper" >
+                    <div class="carousel-track">
+                        <!-- Card 1 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Elefante-Pelucia.png" alt="Urso Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Elefante</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Leao-Pelucia.png" alt="Panda Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Leão</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=3" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Girafa-Pelucia.png" alt="Leão Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Girafa</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Macaco-Pelucia.png" alt="Coelho Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Macaco</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img id="img-raposa" src="assets/css/global/Pelucias/Raposa-Pelucia.png"
+                                alt="Dinossauro Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Raposa</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=6" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-buttons" style="gap: 20px;">
+                    <button id="btn-prev" class="btn btn-primary">&#8249; Anterior</button>
+                    <button id="btn-next" class="btn btn-primary">Próximo &#8250;</button>
+                </div>
+                    <script>
+                    const track2 = document.querySelector('.colecao-2 .carousel-track');
+                    const prevBtn2 = document.querySelector('.colecao-2 #btn-prev');
+                    const nextBtn2 = document.querySelector('.colecao-2 #btn-next');
+
+                    const carouselWrapper2 = document.querySelector('.colecao-2 .carousel-wrapper');
+
+                    const cardWidth2 = 410;
+                    const visibleCards2 = 5;
+                    const originalCards2 = Array.from(track2.children).filter(c2 => !c2.classList.contains('clone2'));
+
+                    // Clonagem para loop infinito
+                    originalCards2.forEach(card2 => {
+                        const clone2Start = card2.cloneNode(true);
+                        clone2Start.classList.add('clone2');
+                        track2.appendChild(clone2Start);
+                    });
+                    originalCards2.forEach(card2 => {
+                        const clone2End = card2.cloneNode(true);
+                        clone2End.classList.add('clone2');
+                        track2.insertBefore(clone2End, track2.firstChild);
+                    });
+
+                    const totalCards2 = track2.children.length;
+                    const realStartIndex2 = 0;
+                    const realEndIndex2 = realStartIndex2 + originalCards2.length - 1;
+
+                    let currentIndex2 = realStartIndex2;
+                    let transitioning2 = false;
+
+                    track2.style.transition = 'none';
+                    track2.style.transform = `translateX(-${cardWidth2 * currentIndex2}px)`;
+
+                    function moveTo2(index2, smooth2 = true) {
+                        if (transitioning2) return;
+                        transitioning2 = true;
+
+                        track2.style.transition = smooth2 ? 'transform 0.5s ease' : 'none';
+                        track2.style.transform = `translateX(-${cardWidth2 * index2}px)`;
+
+                        setTimeout(() => {
+                            if (index2 > realEndIndex2) {
+                                currentIndex2 = realStartIndex2;
+                                track2.style.transition = 'none';
+                                track2.style.transform = `translateX(-${cardWidth2 * currentIndex2}px)`;
+                            } else if (index2 < realStartIndex2) {
+                                currentIndex2 = realEndIndex2;
+                                track2.style.transition = 'none';
+                                track2.style.transform = `translateX(-${cardWidth2 * currentIndex2}px)`;
+                            } else {
+                                currentIndex2 = index2;
+                            }
+
+                            transitioning2 = false;
+                        }, 500);
+                    }
+
+                    function nextSlide2() {
+                        moveTo2(currentIndex2 + 1);
+                    }
+
+                    function prevSlide2() {
+                        moveTo2(currentIndex2 - 1);
+                    }
+
+                    let autoSlideTimeout2;
+
+                    function startAutoSlide2() {
+                        autoSlideTimeout2 = setTimeout(function slide2() {
+                            nextSlide2();
+                            autoSlideTimeout2 = setTimeout(slide2, 4000);
+                        }, 4000);
+                    }
+
+                    function stopAutoSlide2() {
+                        clearTimeout(autoSlideTimeout2);
+                    }
+
+                    nextBtn2.addEventListener('click', () => {
+                        stopAutoSlide2();
+                        nextSlide2();
+                        setTimeout(startAutoSlide2, 4000);
+                    });
+
+                    prevBtn2.addEventListener('click', () => {
+                        stopAutoSlide2();
+                        prevSlide2();
+                        setTimeout(startAutoSlide2, 4000);
+                    });
+
+                    carouselWrapper2.addEventListener('mouseenter', stopAutoSlide2);
+                    carouselWrapper2.addEventListener('mouseleave', () => {
+                        setTimeout(startAutoSlide2, 4000);
+                    });
+
+                    window.addEventListener('load', startAutoSlide2);
+                    </script>
+            </section>
+        </div>
+
+    </section>
+
+    <section class="colecao-3" id="colecao-3">
+
+        <div class="fundo-pelucias">
+
+            <section class="pelucias" id="pelucias">
+
+                <div class="titulo-pelucias">
+                    <i id="icone-cole-3" class="fa-solid fa-bag-shopping"></i>
+                    <h2 id="Titulo-cole-3">Fantasia Encantada</h2>
+                </div>
+
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carousel-track">
+                        <!-- Card 1 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Dinossauro-Pelucia.png" alt="Urso Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Dino</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="venda.html?id=5" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Vaca-Pelucia.png" alt="Panda Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Vaca</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Pinguin-Pelucia.png" alt="Leão Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Pinguin</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 4 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img src="assets/css/global/Pelucias/Unicornio-Pelucia.png" alt="Coelho Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia unicórnio</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                        <!-- Card 5 -->
+                        <div class="card" style="border-radius: 30px; border: none;">
+                            <img id="img-porco" src="assets/css/global/Pelucias/Porco-Pelucia.png"
+                                alt="Dinossauro Pelúcia">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelúcia Porco</h5>
+                                <p class="card-text">R$ 89,90</p>
+                                <a href="#" class="btn btn-primary"
+                                    style="padding: 10px 20px; border: #4A3333 solid 2px; background-color: #4A3333;font-weight: 500;">Comprar</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="carousel-buttons" style="gap: 20px;">
+                    <button id="btn-prev" class="btn btn-primary">&#8249; Anterior</button>
+                    <button id="btn-next" class="btn btn-primary">Próximo &#8250;</button>
+                </div>
+                <script>
+                    const track3 = document.querySelector('.colecao-3 .carousel-track');
+                    const prevBtn3 = document.querySelector('.colecao-3 #btn-prev');
+                    const nextBtn3 = document.querySelector('.colecao-3 #btn-next');
+                    const carouselWrapper3 = document.querySelector('.colecao-3 .carousel-wrapper');
+
+                    const cardWidth3 = 410;
+                    const visibleCards3 = 5;
+                    const originalCards3 = Array.from(track3.children).filter(c3 => !c3.classList.contains('clone3'));
+
+                    // Clonagem para loop infinito
+                    originalCards3.forEach(card3 => {
+                        const clone3Start = card3.cloneNode(true);
+                        clone3Start.classList.add('clone3');
+                        track3.appendChild(clone3Start);
+                    });
+                    originalCards3.forEach(card3 => {
+                        const clone3End = card3.cloneNode(true);
+                        clone3End.classList.add('clone3');
+                        track3.insertBefore(clone3End, track3.firstChild);
+                    });
+
+                    const totalCards3 = track3.children.length;
+                    const realStartIndex3 = 0;
+                    const realEndIndex3 = realStartIndex3 + originalCards3.length - 1;
+
+                    let currentIndex3 = realStartIndex3;
+                    let transitioning3 = false;
+
+                    track3.style.transition = 'none';
+                    track3.style.transform = `translateX(-${cardWidth3 * currentIndex3}px)`;
+
+                    function moveTo3(index3, smooth3 = true) {
+                        if (transitioning3) return;
+                        transitioning3 = true;
+
+                        track3.style.transition = smooth3 ? 'transform 0.5s ease' : 'none';
+                        track3.style.transform = `translateX(-${cardWidth3 * index3}px)`;
+
+                        setTimeout(() => {
+                            if (index3 > realEndIndex3) {
+                                currentIndex3 = realStartIndex3;
+                                track3.style.transition = 'none';
+                                track3.style.transform = `translateX(-${cardWidth3 * currentIndex3}px)`;
+                            } else if (index3 < realStartIndex3) {
+                                currentIndex3 = realEndIndex3;
+                                track3.style.transition = 'none';
+                                track3.style.transform = `translateX(-${cardWidth3 * currentIndex3}px)`;
+                            } else {
+                                currentIndex3 = index3;
+                            }
+
+                            transitioning3 = false;
+                        }, 500);
+                    }
+
+                    function nextSlide3() {
+                        moveTo3(currentIndex3 + 1);
+                    }
+
+                    function prevSlide3() {
+                        moveTo3(currentIndex3 - 1);
+                    }
+
+                    let autoSlideTimeout3;
+
+                    function startAutoSlide3() {
+                        autoSlideTimeout3 = setTimeout(function slide3() {
+                            nextSlide3();
+                            autoSlideTimeout3 = setTimeout(slide3, 4000);
+                        }, 4000);
+                    }
+
+                    function stopAutoSlide3() {
+                        clearTimeout(autoSlideTimeout3);
+                    }
+
+                    nextBtn3.addEventListener('click', () => {
+                        stopAutoSlide3();
+                        nextSlide3();
+                        setTimeout(startAutoSlide3, 4000);
+                    });
+
+                    prevBtn3.addEventListener('click', () => {
+                        stopAutoSlide3();
+                        prevSlide3();
+                        setTimeout(startAutoSlide3, 4000);
+                    });
+
+                    carouselWrapper3.addEventListener('mouseenter', stopAutoSlide3);
+                    carouselWrapper3.addEventListener('mouseleave', () => {
+                        setTimeout(startAutoSlide3, 4000);
+                    });
+
+                    window.addEventListener('load', startAutoSlide3);
+                    </script>
+
+            </section>
+        </div>
+
+
+    </section>
+
+
+    <section class="sobre">
+
+        <div class="conteudo-sobre">
+
+            <h1>Sobre a Nuvell</h1>
+
+            <div class="sobre-coluna">
+
+                <div class="coluna1 coluna">
+
+                    <div>
+                        <i class="fa-solid fa-globe"></i>
+                        <h2 class="sobre-titulo">Aventura Selvagem</h2>
+                    </div>
+
+                    <p>Na Nuvell, cada bichinho é muito mais do que um simples brinquedo — é um verdadeiro
+                        companheiro,
+                        cheio de personalidade e fofura. Criados com carinho em cada detalhe, eles são feitos para
+                        despertar sorrisos, aquecer corações e transformar momentos comuns em lembranças especiais.
+                        Seja
+                        para presentear alguém querido ou para ter sempre por perto, nossos bichinhos carregam
+                        consigo
+                        um toque de magia, prontos para fazer parte das suas histórias e viver grandes aventuras ao
+                        seu
+                        lado.
+                    </p>
+
+                </div>
+
+                <div class="coluna2 coluna">
+
+                    <div>
+                        <i class="fa-solid fa-circle-user"></i>
+                        <h2 class="sobre-titulo">Conheça mais !</h2>
+                    </div>
+
+                    <p>Visite nosso espaço físico ou acesse nosso site e mergulhe de cabeça no encantador universo
+                        dos
+                        bichos de pelúcia! Aqui, cada cantinho foi pensado para despertar a imaginação e aquecer o
+                        coração. Descubra coleções exclusivas, criadas com todo o carinho para trazer alegria em
+                        cada
+                        detalhe. Aproveite promoções especiais, pensadas para tornar seu momento de compra ainda
+                        mais
+                        mágico, e fique por dentro das novidades que chegam a cada temporada, sempre trazendo novos
+                        personagens, cores e histórias.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="conteudo-footer">
+            <div class="midias">
+
+                <div class="logo-footer">
+                    <i class="fa-solid fa-paw"></i>
+                    <h2> Nuvell</h2>
+                </div>
+
+                <div class="midias-footer">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+
+            </div>
+
+            <div class="notas">
+
+                <div class="notas-coluna1 notas-coluna">
+
+                    <h4>Produtos</h4>
+
+                    <a class="texto-coluna" href="#">
+                        <p>Novidades</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Mais Vendidos</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Personalizados</p>
+                    </a>
+
+                </div>
+
+                <div class="notas-coluna2 notas-coluna">
+
+                    <h4>Ajuda</h4>
+
+                    <a class="texto-coluna" href="#">
+                        <p>Troca e Devoluções</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Suporte Cliente</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Rastreamento</p>
+                    </a>
+
+                </div>
+
+                <div class="notas-coluna3 notas-coluna">
+
+                    <h4>Sobre</h4>
+
+                    <a class="texto-coluna" href="#">
+                        <p>Quem Somos</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Nossa Missão</p>
+                    </a>
+                    <a class="texto-coluna" href="#">
+                        <p>Sustentabilidade</p>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
